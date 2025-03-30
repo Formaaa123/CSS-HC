@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fr-FR" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	  <!-- style CSS perso -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="robots" content="noindex">
+    <!-- style Media Queries -->
+    <link rel="stylesheet" href="media-queries.css" type="text/css" /> 
+    <!-- Import typographie Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+<section id="menu">
+    <header>
+        <a href="#"><div class="logo"></div></a>
+        <div class="header-text">CSS avancé</div>
+        <nav>
+            <a href="#book">Partenaires</a>
+            <a href="#services">Services</a>
+            <a href="#contact" id="rendez-vous">Me rappeler</a>
+        </nav>
+    </header>
+</section>
+<section id="banner">
+    <div class="container padding-100 ">
+        <div class="content-box">
+            <div class="hero-banner">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="https://live.staticflickr.com/716/31502855864_723abaccbc_c.jpg" alt="Slide 1">
+                    </div>
+                    <div class="slide">
+                        <img src="https://live.staticflickr.com/4570/26911007889_2e5831d9bb_c.jpg" alt="Slide 2">
+                    </div>
+                    <div class="slide">
+                        <img src="https://farm6.static.flickr.com/5558/14715390706_99fb4829f5_c.jpg" alt="Slide 3">
+                    </div>
+                </div>
+                 <div class="hero-overlay">
+                    <h1>Bienvenue sur notre site</h1>
+                        <p>Découvrez nos solutions adaptées à vos besoins</p>
+                    <button>En savoir plus</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION E-BOOK -->
+<section id="book" class="padding-100">
+    <div class="container">
+        <div class="content-box"> 
+            <article>
+                <h3>Service 1</h3>
+                    <p>Description du service 1.</p>
+            </article>
+        </div>
+        <div class="content-box"> 
+            <article>
+                <h3>Service 1</h3>
+                    <p>Description du service 1.</p>
+            </article>
+        </div>
+        <div class="content-box"> 
+            <article>
+                <h3>Service 1</h3>
+                    <p>Description du service 1.</p>
+            </article>
+        </div>
+    </div>
+</section>
+<!-- SECTION SERVICES -->
+<section id="services" class="padding-100">
+    <div class="container">
+        <!-- Service 1 -->
+        <div class="content-box-service service">
+            <div class="service-image">
+                <img src="https://via.placeholder.com/300" alt="Service 1">
+            </div>
+            <div class="service-text">
+                <h3>Service 1</h3>
+                <p>Découvrez notre premier service, qui offre des solutions personnalisées pour répondre à vos besoins.</p>
+            </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="content-box-service service">
+            <div class="service-image">
+                <img src="https://via.placeholder.com/300" alt="Service 2">
+            </div>
+            <div class="service-text">
+                <h3>Service 2</h3>
+                <p>Notre deuxième service met l'accent sur l'innovation et la qualité.</p>
+            </div>
+        </div>
+        <!-- Service 2 -->
+        <div class="content-box-service service">
+            <div class="service-image">
+                <img src="https://via.placeholder.com/300" alt="Service 3">
+            </div>
+            <div class="service-text">
+                <h3>Service 3</h3>
+                <p>Notre deuxième service met l'accent sur l'innovation et la qualité.</p>
+            </div>
+        </div>
+        <!-- Service 2 -->
+        <div class="content-box-service service">
+            <div class="service-image">
+                <img src="https://via.placeholder.com/300" alt="Service 4">
+            </div>
+            <div class="service-text">
+                <h3>Service 4</h3>
+                <p>Notre deuxième service met l'accent sur l'innovation et la qualité.</p>
+            </div>
+        </div>
+        <!-- Service 2 -->
+        <div class="content-box-service service">
+            <div class="service-image">
+                <img src="https://via.placeholder.com/300" alt="Service 5">
+            </div>
+            <div class="service-text">
+                <h3>Service 5</h3>
+                <p>Notre deuxième service met l'accent sur l'innovation et la qualité.</p>
+            </div>
+        </div>
+        <!-- Service 2 -->
+        <div class="content-box-service service">
+            <div class="service-image">
+                <img src="https://via.placeholder.com/300" alt="Service 6">
+            </div>
+            <div class="service-text">
+                <h3>Service 6</h3>
+                <p>Notre deuxième service met l'accent sur l'innovation et la qualité.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION CONTACT -->
+<section class="padding-100" id="contact">
+    <h3 class="text-center color-black">Merci de votre intérêt. Veuillez remplir ce formulaire pour nous aider à mieux comprendre vos besoins.</h3>
+        <div class="container">
+        <form action="#" method="POST" class="grid-form">
+            <fieldset>
+                <legend>Informations sur l’entreprise</legend>
+                <div class="form-group">
+                    <label for="nomEntreprise">Nom de l’entreprise :</label>
+                    <input type="text" id="nomEntreprise" name="nomEntreprise" required>
+                </div>
+                <div class="form-group">
+                    <label for="secteurActivite">Secteur d’activité :</label>
+                    <input type="text" id="secteurActivite" name="secteurActivite" required>
+                </div>
+                <div class="form-group">
+                    <label for="tailleEntreprise">Taille de l’entreprise (nombre d’employés) :</label>
+                    <input type="number" id="tailleEntreprise" name="tailleEntreprise" min="1">
+                </div>
+                <div class="form-group">
+                    <label for="localisation">Localisation :</label>
+                    <input type="text" id="localisation" name="localisation" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Personne de contact</legend>
+                <div class="form-group">
+                    <label for="nomContact">Nom et prénom :</label>
+                    <input type="text" id="nomContact" name="nomContact" required>
+                </div>
+                <div class="form-group">
+                    <label for="fonction">Fonction/Position :</label>
+                    <input type="text" id="fonction" name="fonction" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Adresse e-mail :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telephone">Numéro de téléphone :</label>
+                    <input type="tel" id="telephone" name="telephone" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Objectifs de collaboration</legend>
+                <div class="form-group">
+                    <label>Quels sont vos objectifs principaux ?</label>
+                    <div>
+                        <input type="checkbox" id="objectif1" name="objectifs[]" value="Améliorer la visibilité">
+                        <label for="objectif1">Améliorer la visibilité de votre entreprise</label>
+                        
+                    </div>
+                    <div>
+                        <input type="checkbox" id="objectif2" name="objectifs[]" value="Gagner de nouveaux clients">
+                        <label for="objectif2">Gagner de nouveaux clients</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="objectif3" name="objectifs[]" value="Augmenter votre présence">
+                        <label for="objectif3">Augmenter votre présence sur les réseaux sociaux</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="objectif4" name="objectifs[]" value="Développer votre marque employeur">
+                        <label for="objectif4">Développer votre marque employeur</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="objectifAutre" name="objectifs[]" value="Autre">
+                        <label for="objectifAutre">Autre</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="attentes">Décrivez brièvement vos attentes :</label>
+                    <textarea id="attentes" name="attentes" rows="8" col="5" ></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Prestations recherchées</legend>
+                <div class="form-group">
+                    <label>Quels services vous intéressent ?</label>
+                    <div>
+                        <input type="checkbox" id="service1" name="services[]" value="Stratégie de communication globale">
+                        <label for="service1">Stratégie de communication globale</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="service2" name="services[]" value="Gestion des réseaux sociaux">
+                        <label for="service2">Gestion des réseaux sociaux</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="service3" name="services[]" value="Création de contenu">
+                        <label for="service3">Création de contenu (visuels, vidéos, rédaction)</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="service4" name="services[]" value="Publicité en ligne">
+                        <label for="service4">Publicité en ligne (Google Ads, Facebook Ads, etc.)</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="service5" name="services[]" value="Identité visuelle et branding">
+                        <label for="service5">Identité visuelle et branding</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="service6" name="services[]" value="Développement web">
+                        <label for="service6">Développement web ou e-commerce</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="serviceAutre" name="services[]" value="Autre">
+                        <label for="serviceAutre">Autre</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Budget prévisionnel</legend>
+                <div class="form-group">
+                    <label>Quelle fourchette de budget souhaitez-vous allouer ?</label>
+                    <select name="budget" id="budget">
+                        <option value="Moins de 1000€">Moins de 1000€</option>
+                        <option value="1000 - 5000 €">1000 - 5000 €</option>
+                        <option value="Plus de 5000 €">Plus de 5000 €</option>
+                        <option value="À déterminer">À déterminer</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Disponibilités pour un premier échange</legend>
+                <div class="form-group">
+                    <label>Préférez-vous un rendez-vous :</label>
+                    <div>
+                        <input type="radio" id="enLigne" name="rdv" value="En ligne">
+                        <label for="enLigne">En ligne (visioconférence)</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="auTelephone" name="rdv" value="Téléphone">
+                        <label for="auTelephone">Téléphone</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="disponibilites">Dates et créneaux disponibles :</label>
+                    <textarea id="disponibilites" name="disponibilites" rows="2"></textarea>
+                </div>
+            </fieldset>
+            <button type="submit" class="button primary">Envoyer</button>
+        </form>
+    </div>
+</section>
+<section class="padding-100" id="avis">
+    <div class="container-avis">
+        <div class="content-box-avis">
+            <div class="avis">
+                <div class="carousel">
+                    <a href="https://www.google.com" onclick="window.open(this.href, '_blank'); return false;">
+                    <div class="carousel-item">
+                        <div class="stars">
+                            <i>★</i><i>★</i><i>★</i><i>★</i><i>☆</i>
+                        </div>
+                        <div class="name">Alice Dupont</div>
+                        <div class="comment">Service excellent, je recommande vivement !</div>
+                    </div>
+                    </a>
+                    <a href="https://www.google.com" onclick="window.open(this.href, '_blank'); return false;">
+                    <div class="carousel-item">
+                        <div class="stars">
+                            <i>★</i><i>★</i><i>★</i><i>★</i><i>★</i>
+                        </div>
+                        <div class="name">Jean Martin</div>
+                        <div class="comment">Une équipe très professionnelle et réactive.</div>
+                    </div>
+                    </a>
+                    <a href="https://www.google.com" onclick="window.open(this.href, '_blank'); return false;">
+                    <div class="carousel-item">
+                        <div class="stars">
+                            <i>★</i><i>★</i><i>★</i><i>☆</i><i>☆</i>
+                        </div>
+                        <div class="name">Sophie Laurent</div>
+                        <div class="comment">Bonne expérience, mais il y a place à l'amélioration.</div>
+                    </div>
+                    </a>
+                    <a href="https://www.google.com" onclick="window.open(this.href, '_blank'); return false;">
+                    <div class="carousel-item">
+                        <div class="stars">
+                            <i>★</i><i>★</i><i>★</i><i>★</i><i>☆</i>
+                        </div>
+                        <div class="name">Michel Dubois</div>
+                        <div class="comment">Très satisfait des résultats obtenus.</div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<footer>
+<div class="container-footer">
+    <div class="content-box-footer">
+            <div>
+                <h3>Info 1</h3>
+                <p></p>
+            </div>
+            <div>
+                <h3>Info 2</h3>
+                <p>url</p>
+            </div>
+             <div >
+                <h3>Info 2</h3>
+                <p>url</p>
+            </div>
+            <div >
+                <h3>Info 3</h3>
+                <p>url</p>
+            </div>
+            <div >
+                <h3>Info 4</h3>
+                <p>url</p>
+            </div>
+    </div>
+</div>
+</footer>
+</body>
+</html>
