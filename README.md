@@ -7,8 +7,11 @@ Adopter des pratiques modernes pour des sites responsives et accessibles.
 Objectifs de cette ressource :
 
 Explorer : Découvrez pas à pas les fondamentaux des embellissements CSS avec des exemples et des mises en pratique.
+
 S'exercer : Améliorez vos compétences grâce à des exercices variés et interactifs.
+
 Créer : Développez des pages web stylisés.
+
 Lien de la formation : https://www.humancoders.com/formations/css-avance
 
 Lien LinkedIn du formateur : https://www.linkedin.com/in/julien-maingault/
